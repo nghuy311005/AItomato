@@ -1,0 +1,288 @@
+[
+  {
+    "id": "Tomato_healthy",
+    "index": 0,
+    "name_vi": "Lá cà chua khỏe mạnh",
+    "name_en": "Healthy Tomato Leaf",
+    "category": "Khỏe mạnh",
+    "pathogen": "Không phát hiện tác nhân gây bệnh",
+    "risk_level": "An toàn",
+    "symptoms": [
+      "Phiến lá phẳng, màu xanh lục đồng đều từ cuống đến chóp lá.",
+      "Không xuất hiện đốm lạ, vết cháy mép hay dấu hiệu côn trùng chích hút."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Không cần sử dụng thuốc BVTV",
+      "dosage": "Duy trì chế độ tưới tiêu và bón phân cân đối hiện tại.",
+      "spraying_technique": "Có thể bổ sung phân bón lá vi lượng Canxi-Bo định kỳ 10–15 ngày/lần giúp chắc cuống hoa và chống nứt quả.",
+      "rotation_medicines": [],
+      "phi_days": 0,
+      "phi_note": "An toàn thu hoạch bình thường theo đúng độ chín của giống."
+    },
+    "prevention": [
+      "Kiểm tra mặt dưới lá định kỳ 2–3 ngày/lần để phát hiện sớm sâu bệnh.",
+      "Theo dõi cảnh báo độ ẩm trên Trang chủ để chủ động phòng nấm mùa mưa."
+    ]
+  },
+  {
+    "id": "Bacterial_spot",
+    "index": 1,
+    "name_vi": "Bệnh Đốm vi khuẩn",
+    "name_en": "Bacterial Spot",
+    "category": "Vi khuẩn",
+    "pathogen": "Xanthomonas campestris pv. vesicatoria",
+    "risk_level": "Trung bình",
+    "symptoms": [
+      "Xuất hiện các chấm nhỏ sũng nước (đường kính 1–3mm) trên lá non và lá bánh tẻ, sau chuyển sang màu nâu đen.",
+      "Xung quanh vết bệnh thường có viền vàng nhạt; khi nặng các đốm liên kết làm lá rách và rụng sớm.",
+      "Trên quả xuất hiện các nốt sần sùi nhỏ nhô lên như ghẻ."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Kasumin 2SL (Kasugamycin)",
+      "dosage": "Pha 30ml cho bình 20 lít nước (phun 2 bình/1.000m²).",
+      "spraying_technique": "Phun phủ đều cả hai mặt lá ngay sau các trận mưa lớn hoặc gió mạnh làm xây xát tán lá.",
+      "rotation_medicines": [
+        "Kocide 53.8DF (Copper Hydroxide - Gốc đồng)",
+        "Starner 20WP (Oxolinic acid)"
+      ],
+      "phi_days": 5,
+      "phi_note": "Ngừng phun thuốc ít nhất 5 ngày trước khi thu hoạch quả theo tiêu chuẩn VietGAP."
+    },
+    "prevention": [
+      "Sử dụng hạt giống sạch bệnh, xử lý hạt bằng nước ấm 50°C trong 25 phút trước khi gieo.",
+      "Tránh tỉa cành, bấm ngọn vào sáng sớm khi lá còn ướt sương để không tạo vết thương hở."
+    ]
+  },
+  {
+    "id": "Early_blight",
+    "index": 2,
+    "name_vi": "Bệnh Mốc sương sớm (Cháy lá sớm)",
+    "name_en": "Early Blight",
+    "category": "Nấm bệnh",
+    "pathogen": "Alternaria solani",
+    "risk_level": "Trung bình",
+    "symptoms": [
+      "Bệnh xuất hiện trước tiên trên các lá già phía gốc với các đốm tròn màu nâu sẫm.",
+      "Bên trong vết bệnh có các vòng tròn đồng tâm xếp lớp đặc trưng giống hình bia bắn.",
+      "Lá bị bệnh chuyển vàng xung quanh đốm nấm, khô giòn và rụng dần từ dưới lên trên."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Score 250EC (Difenoconazole)",
+      "dosage": "Pha 10ml cho bình 20 lít nước.",
+      "spraying_technique": "Tỉa bỏ các lá già sát gốc bị bệnh nặng trước, sau đó phun kỹ tán lá dưới và giữa cây, lặp lại sau 7 ngày.",
+      "rotation_medicines": [
+        "Antracol 70WP (Propineb)",
+        "Amistar Top 325SC (Azoxystrobin + Difenoconazole)"
+      ],
+      "phi_days": 7,
+      "phi_note": "Thời gian cách ly an toàn trước khi thu hoạch là 7 ngày."
+    },
+    "prevention": [
+      "Vệ sinh tàn dư cây trồng sạch sẽ sau mỗi vụ thu hoạch.",
+      "Bón bổ sung Kali và Silic giúp cứng thành tế bào, hạn chế nấm xâm nhập."
+    ]
+  },
+  {
+    "id": "Late_blight",
+    "index": 3,
+    "name_vi": "Bệnh Mốc sương muộn (Cháy lá muộn)",
+    "name_en": "Late Blight",
+    "category": "Nấm bệnh",
+    "pathogen": "Phytophthora infestans",
+    "risk_level": "Cao",
+    "symptoms": [
+      "Vết bệnh khởi phát ở mép hoặc chóp lá dưới dạng mảng úng nước màu xanh tái, sau nhanh chóng chuyển nâu đen như bị bỏng nước sôi.",
+      "Sáng sớm hoặc khi trời âm u, mặt dưới vết bệnh phủ lớp tơ nấm trắng mịn như sương muối.",
+      "Bệnh có thể làm thối đen cả thân cành và quả xanh chỉ sau 3–5 ngày nếu độ ẩm > 85%."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Ridomil Gold 68WG (Metalaxyl-M + Mancozeb)",
+      "dosage": "Pha 25g – 30g cho bình 20 lít nước.",
+      "spraying_technique": "Phun sương mịn phủ đều hai mặt lá, tập trung kỹ mặt dưới lá vào sáng sớm hoặc chiều mát.",
+      "rotation_medicines": [
+        "Revus Opti 440SC (Mandipropamid + Chlorothalonil)",
+        "Curzate M8 72WP (Cymoxanil + Mancozeb)"
+      ],
+      "phi_days": 14,
+      "phi_note": "Bắt buộc cách ly tối thiểu 14 ngày trước khi thu hoạch để đảm bảo dư lượng chuẩn VietGAP."
+    },
+    "prevention": [
+      "Tỉa lá chân tạo độ thông thoáng cho luống trồng, lên luống cao thoát nước tốt.",
+      "Tuyệt đối không tưới phun mưa lên tán lá vào buổi chiều tối."
+    ]
+  },
+  {
+    "id": "Leaf_Mold",
+    "index": 4,
+    "name_vi": "Bệnh Mốc lá",
+    "name_en": "Leaf Mold",
+    "category": "Nấm bệnh",
+    "pathogen": "Passalora fulva (Fulvia fulva)",
+    "risk_level": "Trung bình",
+    "symptoms": [
+      "Mặt trên lá xuất hiện các mảng đốm màu vàng nhạt hoặc xanh vàng không rõ ranh giới.",
+      "Mặt dưới lá tương ứng có lớp nấm mốc mịn như nhung, ban đầu màu trắng xám sau chuyển sang nâu ô-liu hoặc tím nhạt.",
+      "Phổ biến trong nhà kính, nhà màng có độ ẩm cao và kém thông gió."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Daconil 75WP (Chlorothalonil)",
+      "dosage": "Pha 25g cho bình 20 lít nước.",
+      "spraying_technique": "Hướng vòi phun chếch từ dưới lên để thuốc bám đều vào lớp nấm mốc ở mặt dưới phiến lá.",
+      "rotation_medicines": [
+        "Topsin-M 70WP (Thiophanate-methyl)",
+        "Nativo 750WG (Tebuconazole + Trifloxystrobin)"
+      ],
+      "phi_days": 7,
+      "phi_note": "Ngừng phun thuốc ít nhất 7 ngày trước khi hái quả."
+    },
+    "prevention": [
+      "Mở cửa thông gió nhà kính/nhà màng vào ban ngày để giảm ẩm độ không khí xuống dưới 80%.",
+      "Trồng mật độ vừa phải, không để tán lá giao nhau quá rậm rạp."
+    ]
+  },
+  {
+    "id": "Septoria_leaf_spot",
+    "index": 5,
+    "name_vi": "Bệnh Đốm lá Septoria",
+    "name_en": "Septoria Leaf Spot",
+    "category": "Nấm bệnh",
+    "pathogen": "Septoria lycopersici",
+    "risk_level": "Trung bình",
+    "symptoms": [
+      "Xuất hiện rất nhiều đốm tròn nhỏ (đường kính 2–4mm) trên các lá già dưới thấp.",
+      "Đặc điểm nhận diện: Tâm vết bệnh có màu xám trắng, viền ngoài nâu sẫm và có các chấm đen li ti (ổ bào tử) ở giữa.",
+      "Lá bị nặng vàng úa và rụng hàng loạt làm quả bị cháy nắng do thiếu tán che."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Manzate 200 80WP (Mancozeb)",
+      "dosage": "Pha 40g cho bình 20 lít nước.",
+      "spraying_technique": "Ngắt bỏ tiêu hủy các lá gốc nhiễm bệnh trước khi phun thuốc bao vây phần tán lá phía trên.",
+      "rotation_medicines": [
+        "Ortiva 560SC (Azoxystrobin + Chlorothalonil)",
+        "Tilt Super 300EC (Difenoconazole + Propiconazole)"
+      ],
+      "phi_days": 7,
+      "phi_note": "Đảm bảo thời gian cách ly 7 ngày trước khi thu hoạch."
+    },
+    "prevention": [
+      "Phủ màng phủ nông nghiệp hoặc rơm rạ lên mặt luống để ngăn bào tử nấm từ đất bắn lên lá khi tưới.",
+      "Luân canh cây trồng khác họ Cà (như họ Đậu, Bầu bí) sau 2 vụ."
+    ]
+  },
+  {
+    "id": "Spider_mites_Two-spotted_spider_mite",
+    "index": 6,
+    "name_vi": "Nhện đỏ hai chấm",
+    "name_en": "Two-spotted Spider Mite",
+    "category": "Côn trùng",
+    "pathogen": "Tetranychus urticae",
+    "risk_level": "Trung bình",
+    "symptoms": [
+      "Mặt trên lá xuất hiện vô số chấm nhỏ li ti màu trắng vàng như bụi cám do nhện chích hút diệp lục.",
+      "Mặt dưới lá có mạng tơ rất mảnh và các con nhện nhỏ li ti màu vàng xanh hoặc đỏ cam di chuyển.",
+      "Bùng phát mạnh trong điều kiện thời tiết nắng nóng, khô hạn; lá nặng chuyển màu đồng đỏ và khô cháy."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Ortus 5SC (Fenpyroximate) hoặc Radiant 60SC",
+      "dosage": "Ortus 5SC: Pha 15ml – 20ml cho bình 20 lít nước.",
+      "spraying_technique": "Phun áp lực cao tập trung vào mặt dưới lá và đọt non; phun lặp lại lần 2 sau 5 ngày để diệt lứa nhện mới nở từ trứng.",
+      "rotation_medicines": [
+        "Pegasus 500SC (Diafenthiuron)",
+        "Dầu khoáng SK Enspray 99EC (Thuốc trừ nhện sinh học)"
+      ],
+      "phi_days": 5,
+      "phi_note": "Thời gian cách ly 5 ngày (chỉ 2 ngày nếu dùng Dầu khoáng sinh học SK Enspray)."
+    },
+    "prevention": [
+      "Giữ ẩm cho vườn vào mùa nắng nóng, có thể tưới phun sương nhẹ buổi sáng để hạn chế nhện phát triển.",
+      "Không lạm dụng thuốc trừ sâu phổ rộng làm chết thiên địch của nhện đỏ."
+    ]
+  },
+  {
+    "id": "Tomato_mosaic_virus",
+    "index": 7,
+    "name_vi": "Bệnh Virus khảm lá cà chua",
+    "name_en": "Tomato Mosaic Virus (ToMV)",
+    "category": "Virus",
+    "pathogen": "Tomato mosaic virus (ToMV)",
+    "risk_level": "Cao",
+    "symptoms": [
+      "Phiến lá xuất hiện các mảng màu xanh đậm và xanh nhạt xen kẽ loang lổ như bức tranh khảm.",
+      "Lá biến dạng, thu hẹp bản lá (dạng lá dương xỉ), bề mặt lá gồ ghề nhăn nheo.",
+      "Virus lây lan cực nhanh qua tiếp xúc cơ học (tay người chăm sóc, kéo cắt cành, dụng cụ làm vườn)."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Không có thuốc hóa học đặc trị virus – Sử dụng chế phẩm tăng đề kháng Exin 4.5HP hoặc Chitosan sinh học",
+      "dosage": "Pha 20ml chế phẩm sinh học cho bình 20 lít nước để cô lập virus và kích thích cây ra đọt mới.",
+      "spraying_technique": "Nhổ bỏ ngay các cây bị nặng ở giai đoạn sớm; phun bổ sung vi lượng Kẽm (Zn) và Amino Acid cho các cây khỏe xung quanh.",
+      "rotation_medicines": [
+        "Ningnanmycin 8SL (Thuốc kháng virus sinh học)",
+        "Phân bón lá Super Humic + Kẽm Chelate"
+      ],
+      "phi_days": 1,
+      "phi_note": "Các chế phẩm sinh học và vi lượng chỉ cần cách ly 1–2 ngày."
+    },
+    "prevention": [
+      "Khử trùng kéo tỉa cành và rửa tay bằng xà phòng hoặc sữa tươi (10%) khi chuyển từ luống này sang luống khác.",
+      "Không hút thuốc lá trong vườn cà chua vì virus khảm thuốc lá (TMV) lây chéo sang cà chua."
+    ]
+  },
+  {
+    "id": "Target_Spot",
+    "index": 8,
+    "name_vi": "Bệnh Đốm vòng (Target Spot)",
+    "name_en": "Target Spot",
+    "category": "Nấm bệnh",
+    "pathogen": "Corynespora cassiicola",
+    "risk_level": "Trung bình",
+    "symptoms": [
+      "Vết bệnh ban đầu là các chấm nhỏ sũng nước trên lá già, sau mở rộng thành đốm tròn màu nâu nhạt có viền sẫm.",
+      "Bên trong có các vòng đồng tâm mờ, phần mô giữa vết bệnh dễ bị thủng rách khi lá khô.",
+      "Trên quả xanh có thể xuất hiện các vết lõm nhỏ màu nâu đen."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Amistar 250SC (Azoxystrobin)",
+      "dosage": "Pha 12ml – 15ml cho bình 20 lít nước.",
+      "spraying_technique": "Phun đều tán lá từ dưới lên trên khi phát hiện vết bệnh đầu tiên, luân phiên thuốc sau 7–10 ngày.",
+      "rotation_medicines": [
+        "Score 250EC (Difenoconazole)",
+        "Rovral 50WP (Iprodione)"
+      ],
+      "phi_days": 7,
+      "phi_note": "Ngừng phun thuốc ít nhất 7 ngày trước khi thu hoạch quả."
+    },
+    "prevention": [
+      "Tỉa bỏ cành lá vô hiệu dưới gốc để giảm ẩm độ vùng tiểu khí hậu quanh gốc.",
+      "Tránh bón thừa phân đạm làm lá non mềm yếu dễ nhiễm nấm."
+    ]
+  },
+  {
+    "id": "Tomato_Yellow_Leaf_Curl_Virus",
+    "index": 9,
+    "name_vi": "Bệnh Xoăn vàng lá cà chua",
+    "name_en": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "category": "Virus",
+    "pathogen": "Virus TYLCV (Môi giới truyền bệnh: Bọ phấn trắng)",
+    "risk_level": "Cao",
+    "symptoms": [
+      "Các lá ngọn non nhỏ lại rõ rệt, mép lá cuốn cong lên trên hình lòng thuyền, gân lá và mép lá chuyển màu vàng tươi.",
+      "Cây ngừng sinh trưởng chiều cao (chùn ngọn), đốt thân ngắn lại tạo dạng bụi rậm.",
+      "Hoa bị rụng hàng loạt, cây gần như không đậu quả nếu nhiễm bệnh trước giai đoạn ra hoa."
+    ],
+    "vietgap_protocol": {
+      "primary_medicine": "Diệt triệt để bọ phấn trắng môi giới bằng Oshin 20WP (Dinotefuran) hoặc Movento 150OD",
+      "dosage": "Oshin 20WP: Pha 10g cho bình 20 lít nước.",
+      "spraying_technique": "Phun tập trung vào mặt dưới lá non và đọt cây vào sáng sớm khi bọ phấn trắng chưa bay nhiều.",
+      "rotation_medicines": [
+        "Radiant 60SC (Spinetoram - Sinh học)",
+        "Chess 50WG (Pymetrozine)"
+      ],
+      "phi_days": 5,
+      "phi_note": "Cách ly tối thiểu 5 ngày trước khi thu hoạch quả."
+    },
+    "prevention": [
+      "Treo bẫy dính màu vàng (15–20 bẫy/1.000m²) ngang tầm ngọn cây để thu hút và tiêu diệt bọ phấn trắng.",
+      "Nhổ bỏ cây bị bệnh nặng cho vào túi nilon buộc kín mang ra khỏi vườn trước khi tiêu hủy."
+    ]
+  }
+]
